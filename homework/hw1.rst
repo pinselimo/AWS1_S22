@@ -14,7 +14,7 @@ Welchen Typ haben folgende Python-Objekte:
  - ``e = 1 == 2``
  - ``f = dict([(1,'a'), (2,'b')])``
 
-Mit welcher Funktion lässt sich der Typ in Python überprüfen?
+Mit welcher Funktion lässt sich der Typ eines Ausdrucks in Python überprüfen?
 
 Aufgabe 2
 ---------
