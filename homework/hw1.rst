@@ -7,12 +7,12 @@ Aufgabe 1
 *1.5 Punkte*
 
 Welchen Typ haben folgende Python-Objekte:
-- ``a = 63``
-- ``b = 42.0``
-- ``c = '127.32'``
-- ``d = (True, False)``
-- ``e = 1 == 2``
-- ``f = dict([(1,'a'), (2,'b')])``
+ - ``a = 63``
+ - ``b = 42.0``
+ - ``c = '127.32'``
+ - ``d = (True, False)``
+ - ``e = 1 == 2``
+ - ``f = dict([(1,'a'), (2,'b')])``
 
 Mit welcher Funktion lässt sich der Typ in Python überprüfen?
 
