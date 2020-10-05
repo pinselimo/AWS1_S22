@@ -34,14 +34,14 @@ Aufgabe 3
 
 In der Anaconda-Bar ist es Tradition das Biertrinken mit einer Hymne zu begleiten. Auf die Regalwand der Bar passen genau 99 Bier und diese werden mitgezählt:
 
-  99 bottles of beer on the wall, 99 bottles of beer,
-  take one off, pass it around, 98 bottles of beer on the wall!
-  98 bottles of beer ...
-  ...
-  1 bottle of beer on the wall, 1 bottle of beer,
-  take one off, pass it around, no more bottles of beer on the wall!
-  No more bottles of beer on the wall, no more bottles of beer,
-  go to the shop, by some more, 99 bottles of beer on the wall!
+  | 99 bottles of beer on the wall, 99 bottles of beer,
+  | take one off, pass it around, 98 bottles of beer on the wall!
+  | 98 bottles of beer ...
+  | ...
+  | 1 bottle of beer on the wall, 1 bottle of beer,
+  | take one off, pass it around, no more bottles of beer on the wall!
+  | No more bottles of beer on the wall, no more bottles of beer,
+  | go to the shop, by some more, 99 bottles of beer on the wall!
 
 Schreibe eine Funktion namens ``beer`` welche ein ``int``-Argument ``bottles`` entgegennimmt. Von dieser Anzahl an ``bottles`` soll dann der Liedtext heruntergezählt werden. Also zB startend mit "63 bottles of beer .." bis zu "No more bottles..".
 Jede Strophe soll als ein ``str`` (String) separat aber in der richtigen Reihenfolge in einer Liste als Ergebnis zurückgegeben werden.
