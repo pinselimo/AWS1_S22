@@ -22,10 +22,10 @@ Aufgabe 2
 *1 Punkt*
 
 Was sind die Ergebnisse der folgenden Operationen:
-- ``a = 1 >= 3 or 2 < 3``
-- ``b = 63%4``
-- ``c = 63 // 2 <= 42``
-- ``d = np.array([1,2]*3)*3``
+ - ``a = 1 >= 3 or 2 < 3``
+ - ``b = 63%4``
+ - ``c = 63 // 2 <= 42``
+ - ``d = np.array([1,2]*3)*3``
 
 Aufgabe 3
 ---------
