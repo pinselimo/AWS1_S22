@@ -48,3 +48,6 @@ Jede Strophe soll als ein ``str`` (String) separat aber in der richtigen Reihenf
 
 Mit welchem Befehl ließe sich ein String in der Konsole **ausgeben** ?
 
+*Tipp: Range nimmt auch negative "step" Argumente entgegen.*
+Teste in der Konsole mit list(range( start, stop, step )) wie sich die Argumente auswirken!
+
