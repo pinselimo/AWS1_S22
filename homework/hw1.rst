@@ -44,7 +44,8 @@ In der Anaconda-Bar ist es Tradition das Biertrinken mit einer Hymne zu begleite
   | go to the shop, by some more, 99 bottles of beer on the wall!
 
 Schreibe eine Funktion namens ``beer`` welche ein ``int``-Argument ``bottles`` entgegennimmt. Von dieser Anzahl an ``bottles`` soll dann der Liedtext heruntergezählt werden. Also zB startend mit "63 bottles of beer .." bis zu "No more bottles..".
-Jede Strophe soll als ein ``str`` (String) separat aber in der richtigen Reihenfolge in einer Liste als Ergebnis zurückgegeben werden.
+
+Der Rückgabewert der ``beer``-Funktion soll eine Liste sein. In ihr sollen allen Strophen als je ein ``str`` (String) in der richtigen Reihenfolge enthalten sein.
 
 Mit welchem Befehl ließe sich ein String in der Konsole **ausgeben** ?
 
