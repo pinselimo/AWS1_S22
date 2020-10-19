@@ -19,7 +19,10 @@ Aufgabe 2
 
 *1.75 Punkte*
 
+Welchen Code benötigt man, um mit ``matplotlib`` **ein** Bild zu erstellen in der sich **zwei Grafiken** mit **je einem Graph** befinden. Der erste Graph soll die **Sinus**-Funktion darstellen, der zweite den **Cosinus**.
+Zuletzt soll die Grafik entweder angezeigt oder gespeichert werden (kann selbst entschieden werden).
 
+*Tipp:* Cosinus und Sinus finden sich im ``math`` Paket.
 
 Aufgabe 3
 ---------
