@@ -2,11 +2,18 @@
 
 ## Aufgabe 1
 
-*2.5 Punkte*
+*2 Punkte*
+
+Folgende zwei Listen sollen in **einer** einzigen Zeile in Python erstellt werden (keine ';'-Schummelei Erlaubt!):
+
++ Eine Liste mit den Quadratwurzeln der geraden Zahlen von 0 bis 100
++ Eine Liste mit den Zahlen welche durch 3 teilbar sind von 0 bis 100
+
+*Tipp:* Eine List-Comprehension ist aufgebaut wie folgt: ```[ f(x) for x in collection if p(x)]``` wobei der Teil ab ```if``` weggelassen werden kann und ```f(x)``` auch ```x``` oder ein anderer Ausdruck sein kann.
 
 ## Aufgabe 2
 
-*4 Punkte wobei insbesondere darauf geachtet sei Rechenweg* **und** *Python-Code abzugeben.*
+*4.5 Punkte wobei insbesondere darauf geachtet sei Rechenweg* **und** *Python-Code abzugeben.*
 
 Finde zumindest eine umgeformte Variante für die Umwelt-Funktion, mit welcher sich bei ```CHI = 0.01``` die Umwelt dynamisch verhält.
 
