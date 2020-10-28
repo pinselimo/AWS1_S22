@@ -15,8 +15,7 @@ Finde zumindest eine umgeformte Variante für die Umwelt-Funktion, mit welcher s
 
 Die Gleichung für den Umweltzustand :math:`z` so wie wir sie derzeit hier definiert hatten lautet:
 
-.. math::
-    z_{t+1} = z_t + \\nu (z_t-z_t^2)[e^{\\delta z_t^{\\rho}-\\omega f(x_t,y_t,z_t,p_t)}-1]
+.. math:: z_{t+1} = z_t + \\nu (z_t-z_t^2)[e^{\\delta z_t^{\\rho}-\\omega f(x_t,y_t,z_t,p_t)}-1]
 
 Beziehungsweise in Python:
 
@@ -28,6 +27,6 @@ Beziehungsweise in Python:
 Mit einer **mathematischen Umformung** von :math:`z_{t+1}` bzw. der **letzten Zeile** dieses Codes lässt sich das **dynamische Ergebnis** erreichen.
 
 **Tipps:**
-*Binome:* :math:`\\quad (a-b) * (c-d) = a*c - b*c - a*d + b*d`
-*Herausheben:* :math:`\\quad (a^2+2*a) = a * (a+2)`
+*Binome:* :math:`(a-b) * (c-d) = a*c - b*c - a*d + b*d`
+*Herausheben:* :math:`(a^2+2*a) = a * (a+2)`
 
