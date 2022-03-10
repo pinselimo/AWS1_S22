@@ -11,6 +11,14 @@
         jupyter
         autopep8
         nbmerge
+        (buildPythonPackage rec {
+          pname = "rise";
+          version = "5.7.1";
+          src = fetchPypi {
+            inherit pname version;
+            sha256 = "641db777cb907bf5e6dc053098d7fd213813fa9a946542e52b900eb7095289a6";
+            };
+          propagatedBuildInputs = [ notebook ];})
       ];
     in with pkgs; [
       (python39.withPackages env)
