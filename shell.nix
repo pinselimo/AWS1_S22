@@ -10,6 +10,7 @@
         ipython
         jupyter
         autopep8
+        nbmerge
       ];
     in with pkgs; [
       (python39.withPackages env)
