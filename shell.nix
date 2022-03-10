@@ -12,7 +12,7 @@
         autopep8
       ];
     in with pkgs; [
-      (python310.withPackages env)
+      (python39.withPackages env)
     ];
 }
 
