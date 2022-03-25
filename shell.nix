@@ -19,6 +19,12 @@
             sha256 = "641db777cb907bf5e6dc053098d7fd213813fa9a946542e52b900eb7095289a6";
             };
           propagatedBuildInputs = [ notebook ];})
+
+        (buildPythonPackage rec {
+          pname = "wonderland";
+          version = "1.0";
+          src = /home/pinselimo/Python/Wonderland/wonderland;
+        })
       ];
     in with pkgs; [
       (python39.withPackages env)
