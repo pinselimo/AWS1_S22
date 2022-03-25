@@ -11,6 +11,8 @@
         jupyter
         autopep8
         nbmerge
+        hypothesis
+        pytest
         (buildPythonPackage rec {
           pname = "rise";
           version = "5.7.1";
@@ -24,7 +26,7 @@
           pname = "wonderland";
           version = "1.0";
           src = /home/pinselimo/Python/Wonderland/wonderland;
-        })
+          propagatedBuildInputs = [ matplotlib hypothesis pytest ];})
       ];
     in with pkgs; [
       (python39.withPackages env)
