@@ -22,11 +22,11 @@
             };
           propagatedBuildInputs = [ notebook ];})
 
-        (buildPythonPackage rec {
-          pname = "wonderland";
-          version = "1.0";
-          src = /home/pinselimo/Python/Wonderland/wonderland;
-          propagatedBuildInputs = [ matplotlib hypothesis pytest ];})
+        #(buildPythonPackage rec {
+          #pname = "wonderland";
+          #version = "1.0";
+          #src = /home/pinselimo/Python/Wonderland/wonderland;
+          #propagatedBuildInputs = [ matplotlib hypothesis pytest ];})
       ];
     in with pkgs; [
       (python39.withPackages env)
