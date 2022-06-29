@@ -30,6 +30,13 @@
                 };
               propagatedBuildInputs = [ notebook ];})
 
+            # Group 10
+            tqdm
+
+            # Group 7
+            geopandas
+
+
             #(buildPythonPackage rec {
               #pname = "wonderland";
               #version = "1.0";
