@@ -1,0 +1,13 @@
+.direnv/*
+**/.ipynb_checkpoints/*
+**/__pycache__/*
+**/.hypothesis/*
+ps/*
+tn/*
+hw/*
+*.jpg
+*.png
+*.pdf
+*.txt
+*.csv
+
